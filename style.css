@@ -1,0 +1,142 @@
+.parent{
+  display:flex;
+  flex-direction: row;
+}
+.parent{
+  border:2px solid black;
+}
+a{
+  word-wrap:break-word;
+}
+.childone{
+  width: 35%;
+  border: 5px solid red;
+  padding:3%;
+  margin:2%;
+  border-radius: 10%;
+  font-style:oblique;
+}
+.childtwo{
+  width: 65%;
+  border:5px solid blue;
+  padding:4%;
+  margin:2%;
+  border-radius:10%;
+  font-style: oblique;
+}
+img{
+  width:50%;
+  height:10%;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  box-shadow: 6px 6px 6px red;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+  .parent{
+    display:flex;
+    flex-direction: row;
+  }
+  .parent{
+    border:2px solid black;
+    background-color: green;
+  }
+  .childone{
+    width: 100%;
+    border: 5px solid red;
+    padding:3%;
+    margin:2%;
+    border-radius: 10%;
+    font-style:italic;
+    background-color:skyblue;
+  }
+  .childtwo{
+    width: 100%;
+    border:5px solid blue;
+    padding:4%;
+    margin:2%;
+    border-radius:10%;
+    font-style: oblique;
+    background-color:pink;
+  }
+  img{
+    width:20%;
+    height:10%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow: 6px 6px 6px red;
+  }
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+  .parent{
+    display:flex;
+    flex-direction: column;
+  }
+  .parent{
+    border:2px solid black;
+    background-color: red;
+  }
+  .childone{
+    width: 80%;
+    border: 5px solid red;
+    padding:3%;
+    margin:2%;
+    border-radius: 10%;
+    font-style:italic;
+    background-color:green;
+  }
+  .childtwo{
+    width: 80%;
+    border:5px solid blue;
+    padding:4%;
+    margin:2%;
+    border-radius:10%;
+    font-style: oblique;
+    background-color:blue;
+  }
+  img{
+    width:20%;
+    height:10%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow: 6px 6px 6px red;
+  }
+  }
+  @media only screen and (min-width:769px) and (max-width:1024px){
+    .parent{
+      display:flex;
+      flex-direction: row;
+    }
+    .parent{
+      border:2px solid black;
+      background-color: brown;
+    }
+    .childone{
+      width: 80%;
+      border: 5px solid black;
+      padding:3%;
+      margin:2%;
+      border-radius: 10%;
+      font-style:italic;
+      background-color:orange;
+    }
+    .childtwo{
+      width: 80%;
+      border:5px solid green;
+      padding:4%;
+      margin:2%;
+      border-radius:10%;
+      font-style: oblique;
+      background-color:pink;
+    }
+    img{
+      width:20%;
+      height:10%;
+      display:block;
+      margin-left:auto;
+      margin-right:auto;
+      box-shadow: 6px 6px 6px red;
+    }
+    }
